@@ -1,0 +1,116 @@
+/* Reset */
+body,
+h2,
+h4,
+p {
+  padding: o;
+  margin: 0;
+}
+
+h2,
+h4 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Design */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  background-color: rgb(218, 231, 236);
+}
+
+.wrapper {
+  margin: 200px auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: 40px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  position: relative;
+}
+
+.wrapper h2::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  background-color: skyblue;
+}
+
+.wrapper .review {
+  background-color: #fff;
+  padding: 30px 40px;
+  box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 8px -3px 5px 3px skyblue;
+}
+
+.img-container i {
+  position: absolute;
+  font-size: 25px;
+  background-color: skyblue;
+  padding: 13px;
+  border-radius: 50%;
+  color: #fff;
+  left: 180px;
+  top: 30px;
+}
+
+.review .author {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.review .job {
+  margin-top: 8px;
+  font-size: 17px;
+  color: skyblue;
+}
+
+.review .info {
+  margin-top: 15px;
+}
+
+.btn-container {
+  margin: 15px 0 10px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: skyblue;
+  font-size: 20px;
+}
+
+.btn-random {
+  border: 3px solid skyblue;
+  background-color: rgba(231, 239, 243, 0.69);
+  color: skyblue;
+  border-radius: 8px;
+  padding: 5px;
+}
