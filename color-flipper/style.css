@@ -87,4 +87,10 @@ body {
   margin-top: 50px;
   background-color: transparent;
   font-weight: 500;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
 }
